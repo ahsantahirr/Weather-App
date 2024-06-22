@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App by Ahsan</title>
+</head>
+
+<body>
+  
+    <div class="main">
+        <h1>Weather App</h1>
+        <div class="search">
+            <!-- <input type="text" class="inp" placeholder="Enter your city"> -->
+             <select name="" id="citySelect" class="inp">
+                <option value="karachi">Karachi</option>
+                <option value="lahore">Lahore</option>
+                <option value="islamabad">Islamabad</option>
+                <option value="rawalpindi">Rawalpindi</option>
+                <option value="peshawar">Peshawar</option>
+             </select>
+            <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="details">
+            <h1 class="temp" id="temperature">23°C</h1>
+            <h3 class="city" id="cityName">Karachi</h3>
+        </div>
+
+        <div class="other">
+            <h5 class="humidity">
+                <span class="humiper" id="humidity">76%</span><br> Humidity
+            </h5>
+            <h5 class="wind">
+                <span class="windper" id="wind">76.5 km/h</span><br> Wind
+            </h5>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-family: monospace;
+}
+.main {
+    height: 500px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 23%, rgb(139, 151, 10) 61%);
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    height: 60px;
+
+}
+.inp{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px;
+}
+button{
+    border-radius: 20px;
+    color: white;
+    border: none;
+    height: 30px;
+    width:30px;
+background-color: rgb(139, 151, 10);
+border: 2px solid white;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+
+}
+.temp{
+    font-size: 5em;
+    color: white;
+    font-family: monospace;
+}
+.city{
+    font-size: 2em;
+    color: white;
+    font-family: monospace;
+}
+.other{
+    display:flex;
+    gap: 100px;
+    color: white;
+}
+
+.humiper, .windper{
+    font-size: 1.5em;
+}
